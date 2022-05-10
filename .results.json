@@ -2,19 +2,19 @@
   "stats": {
     "suites": 5,
     "tests": 10,
-    "passes": 7,
+    "passes": 10,
     "pending": 0,
-    "failures": 3,
-    "start": "2022-05-10T00:14:51.449Z",
-    "end": "2022-05-10T00:14:51.816Z",
-    "duration": 367
+    "failures": 0,
+    "start": "2022-05-10T08:22:06.134Z",
+    "end": "2022-05-10T08:22:06.527Z",
+    "duration": 393
   },
   "tests": [
     {
       "title": "is defined",
       "fullTitle": "index.js currentUser is defined",
       "file": "/home/lucy/Development/code/phase-1-review-strings-lab/test/indexTest.js",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -32,24 +32,10 @@
       "title": "contains the value of the 'currentUser' variable",
       "fullTitle": "index.js welcomeMessage contains the value of the 'currentUser' variable",
       "file": "/home/lucy/Development/code/phase-1-review-strings-lab/test/indexTest.js",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'Welcome to Flatbook, ${currentUser}!' to contain 'Lucy Quayson'",
-        "showDiff": false,
-        "actual": "Welcome to Flatbook, ${currentUser}!",
-        "stack": "AssertionError: expected 'Welcome to Flatbook, ${currentUser}!' to contain 'Lucy Quayson'\n    at Context.<anonymous> (test/indexTest.js:15:38)\n    at processImmediate (node:internal/timers:466:21)",
-        "multiple": [
-          {
-            "name": "AssertionError",
-            "message": "expected 'Welcome to Flatbook, ${currentUser}!' to contain 'Lucy Quayson'",
-            "showDiff": false,
-            "actual": "Welcome to Flatbook, ${currentUser}!",
-            "multiple": "AssertionError: expected 'Welcome to Flatbook, ${currentUser}!' to contain 'Lucy Quayson'",
-            "stack": "AssertionError: expected 'Welcome to Flatbook, ${currentUser}!' to contain 'Lucy Quayson'\n    at Context.<anonymous> (test/indexTest.js:15:38)\n    at processImmediate (node:internal/timers:466:21)"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "ends with an exclamation point!",
@@ -64,7 +50,7 @@
       "title": "contains \"WELCOME TO FLATBOOK, \"",
       "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
       "file": "/home/lucy/Development/code/phase-1-review-strings-lab/test/indexTest.js",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -73,30 +59,16 @@
       "title": "contains the value of the 'currentUser' variable",
       "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
       "file": "/home/lucy/Development/code/phase-1-review-strings-lab/test/indexTest.js",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'WELCOME TO FLATBOOK, ${CURRENTUSER}!' to contain 'LUCY QUAYSON'",
-        "showDiff": false,
-        "actual": "WELCOME TO FLATBOOK, ${CURRENTUSER}!",
-        "stack": "AssertionError: expected 'WELCOME TO FLATBOOK, ${CURRENTUSER}!' to contain 'LUCY QUAYSON'\n    at Context.<anonymous> (test/indexTest.js:31:45)\n    at processImmediate (node:internal/timers:466:21)",
-        "multiple": [
-          {
-            "name": "AssertionError",
-            "message": "expected 'WELCOME TO FLATBOOK, ${CURRENTUSER}!' to contain 'LUCY QUAYSON'",
-            "showDiff": false,
-            "actual": "WELCOME TO FLATBOOK, ${CURRENTUSER}!",
-            "multiple": "AssertionError: expected 'WELCOME TO FLATBOOK, ${CURRENTUSER}!' to contain 'LUCY QUAYSON'",
-            "stack": "AssertionError: expected 'WELCOME TO FLATBOOK, ${CURRENTUSER}!' to contain 'LUCY QUAYSON'\n    at Context.<anonymous> (test/indexTest.js:31:45)\n    at processImmediate (node:internal/timers:466:21)"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "ends with an exclamation point",
       "fullTitle": "index.js excitedWelcomeMessage ends with an exclamation point",
       "file": "/home/lucy/Development/code/phase-1-review-strings-lab/test/indexTest.js",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -116,22 +88,8 @@
       "file": "/home/lucy/Development/code/phase-1-review-strings-lab/test/indexTest.js",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'Welcome, ${currentUser.slice(0, 1)}!' to contain 'L'",
-        "showDiff": false,
-        "actual": "Welcome, ${currentUser.slice(0, 1)}!",
-        "stack": "AssertionError: expected 'Welcome, ${currentUser.slice(0, 1)}!' to contain 'L'\n    at Context.<anonymous> (test/indexTest.js:48:37)\n    at processImmediate (node:internal/timers:466:21)",
-        "multiple": [
-          {
-            "name": "AssertionError",
-            "message": "expected 'Welcome, ${currentUser.slice(0, 1)}!' to contain 'L'",
-            "showDiff": false,
-            "actual": "Welcome, ${currentUser.slice(0, 1)}!",
-            "multiple": "AssertionError: expected 'Welcome, ${currentUser.slice(0, 1)}!' to contain 'L'",
-            "stack": "AssertionError: expected 'Welcome, ${currentUser.slice(0, 1)}!' to contain 'L'\n    at Context.<anonymous> (test/indexTest.js:48:37)\n    at processImmediate (node:internal/timers:466:21)"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "ends with an exclamation point",
@@ -144,83 +102,13 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "contains the value of the 'currentUser' variable",
-      "fullTitle": "index.js welcomeMessage contains the value of the 'currentUser' variable",
-      "file": "/home/lucy/Development/code/phase-1-review-strings-lab/test/indexTest.js",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'Welcome to Flatbook, ${currentUser}!' to contain 'Lucy Quayson'",
-        "showDiff": false,
-        "actual": "Welcome to Flatbook, ${currentUser}!",
-        "stack": "AssertionError: expected 'Welcome to Flatbook, ${currentUser}!' to contain 'Lucy Quayson'\n    at Context.<anonymous> (test/indexTest.js:15:38)\n    at processImmediate (node:internal/timers:466:21)",
-        "multiple": [
-          {
-            "name": "AssertionError",
-            "message": "expected 'Welcome to Flatbook, ${currentUser}!' to contain 'Lucy Quayson'",
-            "showDiff": false,
-            "actual": "Welcome to Flatbook, ${currentUser}!",
-            "multiple": "AssertionError: expected 'Welcome to Flatbook, ${currentUser}!' to contain 'Lucy Quayson'",
-            "stack": "AssertionError: expected 'Welcome to Flatbook, ${currentUser}!' to contain 'Lucy Quayson'\n    at Context.<anonymous> (test/indexTest.js:15:38)\n    at processImmediate (node:internal/timers:466:21)"
-          }
-        ]
-      }
-    },
-    {
-      "title": "contains the value of the 'currentUser' variable",
-      "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
-      "file": "/home/lucy/Development/code/phase-1-review-strings-lab/test/indexTest.js",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'WELCOME TO FLATBOOK, ${CURRENTUSER}!' to contain 'LUCY QUAYSON'",
-        "showDiff": false,
-        "actual": "WELCOME TO FLATBOOK, ${CURRENTUSER}!",
-        "stack": "AssertionError: expected 'WELCOME TO FLATBOOK, ${CURRENTUSER}!' to contain 'LUCY QUAYSON'\n    at Context.<anonymous> (test/indexTest.js:31:45)\n    at processImmediate (node:internal/timers:466:21)",
-        "multiple": [
-          {
-            "name": "AssertionError",
-            "message": "expected 'WELCOME TO FLATBOOK, ${CURRENTUSER}!' to contain 'LUCY QUAYSON'",
-            "showDiff": false,
-            "actual": "WELCOME TO FLATBOOK, ${CURRENTUSER}!",
-            "multiple": "AssertionError: expected 'WELCOME TO FLATBOOK, ${CURRENTUSER}!' to contain 'LUCY QUAYSON'",
-            "stack": "AssertionError: expected 'WELCOME TO FLATBOOK, ${CURRENTUSER}!' to contain 'LUCY QUAYSON'\n    at Context.<anonymous> (test/indexTest.js:31:45)\n    at processImmediate (node:internal/timers:466:21)"
-          }
-        ]
-      }
-    },
-    {
-      "title": "contains the first initial of the name stored in the 'currentUser' variable",
-      "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
-      "file": "/home/lucy/Development/code/phase-1-review-strings-lab/test/indexTest.js",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'Welcome, ${currentUser.slice(0, 1)}!' to contain 'L'",
-        "showDiff": false,
-        "actual": "Welcome, ${currentUser.slice(0, 1)}!",
-        "stack": "AssertionError: expected 'Welcome, ${currentUser.slice(0, 1)}!' to contain 'L'\n    at Context.<anonymous> (test/indexTest.js:48:37)\n    at processImmediate (node:internal/timers:466:21)",
-        "multiple": [
-          {
-            "name": "AssertionError",
-            "message": "expected 'Welcome, ${currentUser.slice(0, 1)}!' to contain 'L'",
-            "showDiff": false,
-            "actual": "Welcome, ${currentUser.slice(0, 1)}!",
-            "multiple": "AssertionError: expected 'Welcome, ${currentUser.slice(0, 1)}!' to contain 'L'",
-            "stack": "AssertionError: expected 'Welcome, ${currentUser.slice(0, 1)}!' to contain 'L'\n    at Context.<anonymous> (test/indexTest.js:48:37)\n    at processImmediate (node:internal/timers:466:21)"
-          }
-        ]
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "is defined",
       "fullTitle": "index.js currentUser is defined",
       "file": "/home/lucy/Development/code/phase-1-review-strings-lab/test/indexTest.js",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -230,6 +118,15 @@
       "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
       "file": "/home/lucy/Development/code/phase-1-review-strings-lab/test/indexTest.js",
       "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "contains the value of the 'currentUser' variable",
+      "fullTitle": "index.js welcomeMessage contains the value of the 'currentUser' variable",
+      "file": "/home/lucy/Development/code/phase-1-review-strings-lab/test/indexTest.js",
+      "duration": 0,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -247,7 +144,16 @@
       "title": "contains \"WELCOME TO FLATBOOK, \"",
       "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
       "file": "/home/lucy/Development/code/phase-1-review-strings-lab/test/indexTest.js",
-      "duration": 0,
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "contains the value of the 'currentUser' variable",
+      "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
+      "file": "/home/lucy/Development/code/phase-1-review-strings-lab/test/indexTest.js",
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -256,7 +162,7 @@
       "title": "ends with an exclamation point",
       "fullTitle": "index.js excitedWelcomeMessage ends with an exclamation point",
       "file": "/home/lucy/Development/code/phase-1-review-strings-lab/test/indexTest.js",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -266,6 +172,15 @@
       "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
       "file": "/home/lucy/Development/code/phase-1-review-strings-lab/test/indexTest.js",
       "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "contains the first initial of the name stored in the 'currentUser' variable",
+      "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
+      "file": "/home/lucy/Development/code/phase-1-review-strings-lab/test/indexTest.js",
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
